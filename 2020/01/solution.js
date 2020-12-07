@@ -22,3 +22,21 @@ sorted.forEach((num1, index) => {
     }
   }
 });
+
+/* 
+===Part 2===
+Find the three entries that sum to 2020
+Multiply them together for the answer
+*/
+
+sorted.forEach((num1, index) => {
+  for (let i = index + 1; i < sorted.length; i++) {
+    for (let j = index + 2; j < sorted.length; j++) {
+      if (num1 + sorted[i] + sorted[j] === 2020) {
+        return console.log(`🎄 ${num1} + ${sorted[i]} + ${sorted[j]} = 2020\n🎄 Solution: ${num1 * sorted[i] * sorted[j]}`)
+      } else if (num1 + sorted[i] + sorted[j] > 2020) {
+        break;
+      }
+    }
+  }
+});
