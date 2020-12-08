@@ -1,5 +1,4 @@
-module.exports = `
-1664
+module.exports = `1664
 1939
 1658
 1791
@@ -198,5 +197,4 @@ module.exports = `
 1784
 1671
 1807
-1943
-`;
+1943`;

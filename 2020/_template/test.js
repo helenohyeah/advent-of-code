@@ -1,7 +1,7 @@
 const assert = require('assert');
 const { partOne, partTwo } = require('./solution');
 
-describe('Day ', () => {
+describe('Day ...', () => {
   describe('Part One', () => {
     it('should ...', () => {
       const input = ``;
