@@ -2,15 +2,17 @@ const assert = require('assert');
 const { partOne, partTwo } = require('./solution');
 
 describe('Day ...', () => {
+  const testInput = ``;
+
   describe('Part One', () => {
     it('should ...', () => {
-      const input = ``;
+      assert.strictEqual(partOne(testInput), '...')
     });
   });
   
   describe('Part Two', () => {
     it('should ...', () => {
-      const input = ``;
+      assert.strictEqual(partTwo(testInput), '...')
     });
   });
   
