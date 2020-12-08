@@ -1,0 +1,24 @@
+{
+  "name": "advent-of-code",
+  "version": "1.0.0",
+  "description": "My solutions to Advent of Code 🎄",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha 2020/day-**/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/helenohyeah/advent-of-code.git"
+  },
+  "keywords": [],
+  "author": "Helen Ouyang <ouyang.helen@gmail.com> (https://www.helenouyang.me)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/helenohyeah/advent-of-code/issues"
+  },
+  "homepage": "https://github.com/helenohyeah/advent-of-code#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "mocha": "^8.2.1"
+  }
+}
