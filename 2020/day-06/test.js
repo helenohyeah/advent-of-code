@@ -20,14 +20,14 @@ b`;
 describe('Day 6', () => {
 
   describe('Part One', () => {
-    it.only('should return 11 given test input', () => {
+    it('should return 11 given test input', () => {
       assert.strictEqual(partOne(testInput), 11)
     });
   });
   
   describe('Part Two', () => {
-    it('should ...', () => {
-      assert.strictEqual(partTwo(testInput), '...')
+    it('should return 6 given test input', () => {
+      assert.strictEqual(partTwo(testInput), 6)
     });
   });
   
