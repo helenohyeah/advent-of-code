@@ -1,4 +1,4 @@
-const format = (input) => input.trim().split('\n');
+const format = (input) => input.trim().split(/\n/g);
 
 const partOne = (input) => {
  
